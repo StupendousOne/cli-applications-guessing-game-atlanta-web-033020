@@ -17,7 +17,7 @@ describe "Guessing CLI" do
     end
 
     it "responds to a correct guess" do
-      allow(self).to receive(:rand).and_return(2)
+      allow(self).to receive(:rand).and_return(1)
 
       expect(self).to receive(:gets).and_return("2")
 

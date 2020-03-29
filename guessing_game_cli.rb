@@ -19,7 +19,6 @@ end
 
 def incorrect_guess(num)
   puts "Sorry! The computer guessed #{num}."
-  puts "Please guess again"
 end
 
 def correct_guess

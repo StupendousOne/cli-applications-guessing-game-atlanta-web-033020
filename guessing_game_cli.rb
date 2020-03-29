@@ -43,7 +43,7 @@ def run_guessing_game
   if guess == "exit" then
     puts "Goodbye!"
   else
-    compare_guess(guess, number)
+    compare_guess(guess.to_i, number)
   end
     
   

@@ -18,7 +18,7 @@ def generate_number
 end
 
 def incorrect_guess(num)
-  puts "Sorry! The computer guessed #{num}."
+  puts "/Sorry! The computer guessed #{num}./"
 end
 
 def correct_guess

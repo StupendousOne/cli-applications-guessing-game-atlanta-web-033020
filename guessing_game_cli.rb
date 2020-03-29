@@ -29,7 +29,7 @@ def compare_guess(guess, number)
   if guess == number then
     correct_guess
   else
-    incorrect_guess(guess)
+    incorrect_guess(number)
   end
 end
 

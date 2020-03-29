@@ -46,6 +46,4 @@ def run_guessing_game
     compare_guess(guess.to_i, number)
   end
     
-  
-  
 end

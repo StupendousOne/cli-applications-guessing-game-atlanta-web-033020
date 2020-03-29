@@ -41,6 +41,7 @@ def run_guessing_game
   if guess == "exit" then
     puts "Goodbye!"
   else
+    pp guess
     compare_guess(guess, number)
   end
     
